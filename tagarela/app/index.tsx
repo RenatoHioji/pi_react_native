@@ -1,6 +1,6 @@
 import { ImageBackground, Text, View } from "react-native";
 import Header from "@/components/header/Header";
-
+import Section from "@/components/Section/Section";
 
 export default function Home() {
   return (
@@ -14,6 +14,7 @@ export default function Home() {
       }}
     >
       <Header page_name="ÍNICIO"/>
+      <Section section_name="NECESSIDADE"/>
     </View>
     </ImageBackground>
   );
